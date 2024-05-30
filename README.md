@@ -1,1 +1,1 @@
-# scalable-drafting-web-app
+# DraftManager
