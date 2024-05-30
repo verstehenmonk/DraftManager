@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draft Manager</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Draft Manager</h1>
+    <div>
+        <label for="playersInput">Enter players (comma-separated):</label>
+        <input type="text" id="playersInput" placeholder="Player1,Player2,Player3">
+    </div>
+    <div>
+        <label for="playersPerPodInput">Players per pod:</label>
+        <input type="number" id="playersPerPodInput" placeholder="3">
+    </div>
+    <div>
+        <label for="roundTimeInput">Round time (seconds):</label>
+        <input type="number" id="roundTimeInput" placeholder="300">
+    </div>
+    <button id="startDraftBtn">Start Draft</button>
+    <button id="updateDraftBtn">Update Draft</button>
+    <button id="exportDraftBtn">Export Draft</button>
+    <button id="setTimerBtn">Set Timer</button>
+    <div id="timerDisplay">Time remaining: 0 seconds</div>
+</body>
+</html>
